@@ -1,0 +1,27 @@
+{
+  "name": "rest-api-mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/server.js",
+    "start": "pm2-runtime start src/server.js --name 'rest-api-mock-app'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TL-Developer/rest-api-mock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TL-Developer/rest-api-mock/issues"
+  },
+  "homepage": "https://github.com/TL-Developer/rest-api-mock#readme",
+  "dependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "express": "^5.1.0",
+    "pm2": "^6.0.6"
+  }
+}
